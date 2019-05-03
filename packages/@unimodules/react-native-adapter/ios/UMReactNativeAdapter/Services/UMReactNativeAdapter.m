@@ -213,6 +213,7 @@ UM_REGISTER_MODULE();
         UIView *view = viewRegistry[viewId];
         block(view);
       }];
+      [strongSelf.bridge.uiManager setNeedsLayout];
     }
   });
 }
