@@ -15,6 +15,7 @@ This API is pre-installed in [managed](../../introduction/managed-vs-bare/#manag
 ## Usage
 
 See full documentation at [react-community/react-native-maps](https://github.com/react-community/react-native-maps).
+Bare in mind using Expo you cannot use components like 'Marker' directly. You should prepend it with 'Mapview' (i.e.: <Mapview.Marker />)
 
 <SnackEmbed snackId="@adamjnav/mapview-example" />
 
